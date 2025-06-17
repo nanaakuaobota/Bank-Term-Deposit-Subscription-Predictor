@@ -1,3 +1,8 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
+import joblib
+
 # Load model and scaler
 model = joblib.load('xgb_model.pkl')
 scaler = joblib.load('scaler.pkl')
